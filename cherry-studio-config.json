@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "facebook-scraper": {
+      "command": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "args": [
+        "E:\\mcp\\facebook\\server.py"
+      ],
+      "env": {
+        "RAPIDAPI_KEY": "你的API密钥"
+      },
+      "disabled": false
+    }
+  }
+}
+
