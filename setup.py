@@ -7,10 +7,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="bachai-facebook",
-    version="1.0.1",
+    version="1.0.3",
     author="BACH Studio",
     author_email="contact@bachstudio.com",
-    description="A short description",
+    description="Facebook Scraper MCP Server - 提供8个Facebook搜索工具的Model Context Protocol服务器",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/BACH-AI-Tools/facebook",
@@ -22,6 +22,13 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        # 添加你的依赖
+        "mcp>=0.9.0",
+        "httpx>=0.27.0",
     ],
+    entry_points={
+        "console_scripts": [
+            "bachai-facebook=server:run_server",
+        ],
+    },
+    py_modules=["server"],
 )

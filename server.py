@@ -292,6 +292,13 @@ async def main():
         )
 
 
-if __name__ == "__main__":
+def run_server():
+    """
+    同步入口函数，用于命令行调用
+    """
     asyncio.run(main())
+
+
+if __name__ == "__main__":
+    run_server()
 

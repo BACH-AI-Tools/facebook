@@ -253,6 +253,3 @@ curl --request GET \
 - [Facebook Scraper3 API 文档](https://rapidapi.com/krasnoludkolo/api/facebook-scraper3/)
 - [MCP 官方文档](https://modelcontextprotocol.io/)
 - [Claude Desktop](https://claude.ai/desktop)
-
-
-#test
